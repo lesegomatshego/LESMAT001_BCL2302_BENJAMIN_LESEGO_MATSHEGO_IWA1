@@ -68,7 +68,7 @@ body{
     transform: translateY(0);
 }
 .counter_button:disabled{
-    opticity:0.2
+    opacity:0.2
 }
 .counter_button:active {
     background: var(--color-medium-grey);
