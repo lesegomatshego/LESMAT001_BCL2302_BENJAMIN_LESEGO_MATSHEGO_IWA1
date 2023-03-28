@@ -1,23 +1,7 @@
 :root{
-    color: green;
-    color: white;
-    color: darkgrey;
-    color: grey;
-    color: lightgrey;
-
-}
-
-
-
-
-* {
-
-    box-sizing: border-box;
-}
-body{
-    margin: 0;
-    background-color: aliceblue;
-    color: black;
-    font-family: 
-
+    --color-green: #31C48D;
+    --color-white: #FFFFFF;
+    --color-dark-grey: #33333D;
+    --color-medium-grey:hsl(240, 10%, 29%);
+    --color-light-grey:#9ca3ae;
 }
