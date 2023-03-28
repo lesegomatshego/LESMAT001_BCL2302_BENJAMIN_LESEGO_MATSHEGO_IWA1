@@ -23,3 +23,13 @@ body{
     justify-content: space-between;
     height: 100%;
 }
+
+/* header*/
+.header{
+    text-align: center;
+}
+.header_title{
+    font-size: 3rem;
+    font-weight: 900;
+    color: var(--color-light-grey);
+}
