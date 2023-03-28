@@ -1,0 +1,19 @@
+:root{
+    color:green;
+    color:white;
+    color:darkgrey;
+    color: #424250;
+    color:lightgrey;
+}
+
+{
+    box-sizing:border-box ;
+}
+
+body {
+    background-color: azure;
+    color: black;
+    margin: 0;
+    font-family: robo;
+
+}
