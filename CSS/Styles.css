@@ -1,3 +1,20 @@
+:root{
+    color: green;
+    color: white;
+    color: darkgrey;
+    color: grey;
+    color: lightgrey;
+
+}
+
+
+
+
 * {
 
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: aliceblue;
 }
