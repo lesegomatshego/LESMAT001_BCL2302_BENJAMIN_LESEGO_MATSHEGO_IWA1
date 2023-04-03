@@ -1,2 +1,5 @@
 // scripts.js
-console.log('Roles:', "CEO","Intern", "Head of Marketing")
+import { role as nwabisa } from './nwabisa.js'
+import { role as johannes } from './johannes.js'
+import { role as alex } from './alex.js'
+ console.log(nwabisa,johannes,alex);

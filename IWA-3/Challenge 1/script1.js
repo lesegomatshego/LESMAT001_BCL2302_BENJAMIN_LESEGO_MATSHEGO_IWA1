@@ -1,5 +1,5 @@
 
 import{company,year}from "./configuration.js" 
 
-var message = '© ' + company + ' (' + year + ')'
+let message = '© ' + company + ' (' + year + ')'
 document.querySelector('footer').innerText = message
