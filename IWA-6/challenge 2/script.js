@@ -7,11 +7,16 @@ const hourOfDay = 00;
 const minuteOfDay = 00;
 
 // Only change below this line
+if(hourOfDay=== 00&&minuteOfDay== 00)
+{
+    const taxAsDecimal=parseInt(tax)/100;
+    const startingAfterTax = salary *taxAsDecimal;
+	const balace = salary- startingAfterTax-food-transport- rent;
 
-if hourOfDay && (minuteOfDay !== null) && (hourOfDay == '00') && (minuteOfDay == '00') {
-	const taxAsDecimal = tax / '100'
-  const startingAfterTax = salary * '1' - taxAsDecimal
-	const balace = starting - transport - food - rent
+    console.log('R',balace.toFixed(2));
 }
+else{(hourOfDay!==null&&minuteOfDay!==null)
+    console.log('undefined')
+}
+ 
 	
-console.log(balance.toFixed(3))
