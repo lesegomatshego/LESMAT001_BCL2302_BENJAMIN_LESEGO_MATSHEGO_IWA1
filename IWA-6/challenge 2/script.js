@@ -10,7 +10,7 @@ const minuteOfDay = 00;
 if(hourOfDay=== 00&&minuteOfDay== 00)
 {
     const taxAsDecimal=parseInt(tax)/100;
-    const startingAfterTax = salary *taxAsDecimal;
+    const startingAfterTax = salary * (1-taxAsDecimal);
 	const balace = salary- startingAfterTax-food-transport- rent;
 
     console.log('R',balace.toFixed(2));

@@ -5,11 +5,25 @@ let locationC = 'RSA';
 let currency = 'R';
 let customers = 1;
 let shipping;
+
 const shoes = 300 * 1;
 const toys = 100 * 5;
 const shirts = 150 * NONE_SELECTED;
 const batteries = 35 * 2;
 const pens = 5 * NONE_SELECTED;
+
+if (locationC==='RSA'){
+  shipping=== 400 && currencyC==='R';
+  console.log (FREE_WARNING);
+}
+
+if (locationC==="NAM"){
+  shipping===600 && currencyC==='$';
+  console.log (FREE_WARNING);
+}
+
+
+
 if (locationC === 'RSA') {
   shipping = 400;
 } else if (locationC === 'NAM') {
@@ -19,11 +33,14 @@ if (locationC === 'RSA') {
 } else {
   shipping = 800;
 }
+
 const subtotal = shoes + toys + shirts + batteries + pens;
-if ((subtotal >= 1000) && (location === 'RSA' || location === 'NAM') && (customers === 1)) {
+if ((subtotal >= 1000) && (locationC === 'RSA' || locationC === 'NAM') && (customers === 1)) {
   shipping = 0;
+
 } else if (shipping === undefined) {
   console.log(BANNED_WARNING);
+
 } else if ((shipping === 0) && (customers !== 1)) {
   console.log(FREE_WARNING);
 }
