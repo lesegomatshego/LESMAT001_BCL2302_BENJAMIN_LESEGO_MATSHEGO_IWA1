@@ -1,4 +1,3 @@
-const value = "3"
-const newValue= Number(value);
+const value = 3
 
-console.log(newValue + 4 + newValue)
+console.log(value + 4 + value)

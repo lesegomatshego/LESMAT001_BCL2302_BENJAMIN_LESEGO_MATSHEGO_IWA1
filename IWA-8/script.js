@@ -16,27 +16,27 @@ const sarahPostal = '0310';
 const leo = {
 	name : leoName + 'leoSurname',
 	balance : leoBalance,
-	'access id' : '47afb389-8014-4d0b-aff3-e40203d2107f',
+	accessid : '47afb389-8014-4d0b-aff3-e40203d2107f',
 	age : 24,
 	address :{
 		number : leoNumber,
 		street :leoStreet,
-		'postal-code ': leoPostal,
+		postalcode : leoPostal,
 	}
 }
 
 const sarah = {
 	name : sarahName + sarahSurname,
 	age : 62,
-	'access id' : '6b279ae5-5657-4240-80e9-23f6b635f7a8',
+	accessid : '6b279ae5-5657-4240-80e9-23f6b635f7a8',
 	balance : sarahBalance,
 	address :{
 		number : sarahNumber,
 		street : sarahStreet,
-		'postal-code' : sarahPostal,
+		postalcode : sarahPostal,
 	}
 
 
 }
-console.log(leo, leo['address']['postal-code']);
-console.log(sarah, sarah['address']['postal-code']);
+console.log(leo, leo.address.postalcode);
+console.log(sarah, sarah.address.postalcode);

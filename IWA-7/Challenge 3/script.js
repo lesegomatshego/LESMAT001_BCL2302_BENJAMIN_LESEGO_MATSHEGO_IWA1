@@ -13,7 +13,7 @@ const divider = '----------------------------------'
 const owed = parseInt(-1* + leoBalance ) + parseFloat(-1 *sarahBalance)
 const leo = `${leoName} + ${(leoSurname)}.trim() Owed :R${parseFloat(-1*leoBalance).toFixed(2)}\n`
 const sarah = `${(sarahBalance).trim()}${sarahSurname}(Owned :R${parseFloat(-1*sarahBalance).toFixed(2)})\n`
-const total =  `\n\tTotal amount owed:R${(owed).toFixed(2)}`
-const result = leo + sarah + divider + total +`\n----------`
+const total = `\n\t Total amount owed:R${(owed).toFixed(2)}`
+const result = leo + sarah + divider + total +`\n-----------`
 
 console.log(result)
